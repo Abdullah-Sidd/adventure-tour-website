@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Kalam:wght@300&family=Mulish&family=Poppins:wght@300&display=swap');
+
+/* This is Navbar css. */
+
+.navbar{
+  background-color: white !important;
+}
+
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+
+.navbar a{
+  font-size: 1.3rem !important;
+}
+
+.navbar a:hover{
+  color: #3498db !important;
+}
+
+.container-Home{
+background-image: url("https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80");
+width: 100%;
+height: 90vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-position: fixed;
+object-fit: cover;
+}
+
+.btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: whitesmoke;
+  border: 2px solid black;
+  background-color: darkblue;
+  text-decoration: none;
+}
+
+.btn-get-started:hover{
+  background-color: red;
+  color: black;
+}
+
+.h{
+color: red;
+}
+
+.hh{
+color: darkslategray;
+}
+
+.container-Service{
+  background-image: url("https://i.vimeocdn.com/video/1220111173-d266e0587cd724db31b1657b17a2d4f4df2a15fa0d4504d82a20a5ae199634ff-d_.jpg");
+width: 100%;
+height: 100vh;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+
+.vert-move{
+
+  
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s  ease-in-out infinite  alternate-reverse both;
+
+
+}
+
+
+
+@-webkit-keyframes mover {
+0% { transform: translateY(0); }
+100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+0% { transform: translateY(0); }
+100% { transform: translateY(-10px); }
+}
+
+
+.c{
+  color: red;
+}
+
+.cc{
+  color: green;
+}
+
+.lg{
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  width: 100%;
+}
+
+.lggg{
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+            width: 100%;
+            height: 100vh;
+}
+
